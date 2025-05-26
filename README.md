@@ -13,7 +13,7 @@ Tile-Based Processing:
 * Each pixel uses 4 bits to reference palette colors (0-15)
 * Two pixels are packed into each byte for efficient storage
 
-Genesis Assembly Output:
+Assembly Output:
 * Formats output as Genesis assembly code with dc.w and dc.b directives
-* Includes both palette data and tile data
-* Assembly output can be directly included in Genesis game source code
+* Includes palette data and tile data
+* Can be directly included in game source code
