@@ -1,5 +1,5 @@
 # Sega Genesis/Mega Drive BMP2HEX
-This Python script converts bitmap images into Sega Genesis(Mega Drive)-compatible hex data for retro game development. It automatically processes images by reducing them to 16-color palettes, organizing graphics into 8x8 pixel tiles, and converting colors to the Genesis's 9-bit color format. The assembly formatted palette and tile data can be directly included in game projects.
+This Python script converts bitmap images into Sega Genesis(Mega Drive)-compatible hex data for retro game development. It automatically processes images by reducing them to 16-color palettes, organizing graphics into 8x8 pixel tiles, and converting colors to the Genesis's 9-bit color format. The assembly formatted palette and tile code can be directly included in game projects. 
 
 Genesis Color Conversion:
 * Converts RGB colors to Genesis 9-bit format (3 bits per color component)
@@ -17,3 +17,6 @@ Assembly Output:
 * Formats output as Genesis assembly code with dc.w and dc.b directives
 * Includes palette data and tile data
 * Can be directly included in game source code
+
+# License
+Provided under GNU General Public License v3 / Attribution should go to RetroGameplayer.com
