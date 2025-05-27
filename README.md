@@ -18,5 +18,5 @@ Assembly Output:
 * Includes palette data and tile data
 * Can be directly included in game source code
 
-# License
+## License
 Provided under GNU General Public License v3 / Attribution should go to RetroGameplayer.com
